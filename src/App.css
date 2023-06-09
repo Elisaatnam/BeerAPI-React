@@ -1,0 +1,61 @@
+@font-face {
+	font-family: Murphy;
+	src: url(./assets/fonts/MurphysFolly-OVld6.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	background-color: #d9bf77be;
+	min-height: 100vh;
+	padding: 0 7.5vw;
+}
+
+h2 {
+	font-family: Murphy;
+	font-size: 8vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.all-beers {
+	margin-bottom: 2vh;
+}
+
+.all-beers p {
+	font-size: 3.25vw;
+}
+
+.img-div {
+	height: 30vh;
+	width: 100%;
+	background: url(/bierpalette.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.random-beer {
+	padding-bottom: 12vh;
+}
+
+.random-beer p {
+	font-size: 3.25vw;
+}
+
+.img-div2 {
+	height: 30vh;
+	width: 100%;
+	background: url(/zapfhahn.jpg) no-repeat center;
+	background-size: cover;
+}
