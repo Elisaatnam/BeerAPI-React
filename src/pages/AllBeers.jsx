@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import SingleBeer from "../components/SingleBeer";
 import Nav from "../components/Nav";
+import "./AllBeers.css";
 
 const AllBeers = () => {
 	const [beerData, setBeerData] = useState([]);

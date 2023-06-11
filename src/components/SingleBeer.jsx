@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./SingleBeer.css";
 
 const SingleBeer = props => {
 	return (

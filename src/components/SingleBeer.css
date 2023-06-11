@@ -1,0 +1,41 @@
+.single-beer {
+	display: flex;
+	height: 35vh;
+	width: 100%;
+	border-bottom: 0.5px solid black;
+	margin-bottom: 2vh;
+}
+
+.single-beer div:first-of-type {
+	display: inline-block;
+	height: 30vh;
+	width: 50vw;
+	margin-right: 5vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.single-beer div img {
+	height: 100%;
+	width: auto;
+}
+
+.single-beer div:last-of-type {
+	height: 30vh;
+	width: 50vw;
+	text-align: left;
+}
+
+.single-beer a {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 1.5vh;
+	background-color: #eaae08b6;
+	transition: 0.5s ease-in-out;
+}
+
+.single-beer a:hover {
+	background-color: #b48400;
+	color: white;
+}

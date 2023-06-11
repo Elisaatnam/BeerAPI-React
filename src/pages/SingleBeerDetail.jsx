@@ -18,7 +18,7 @@ const SingleBeerDetail = () => {
 	return (
 		<>
 			<section className='detail-page'>
-				<img src={detail.image_url} alt={detail.name} />
+				<img src={detail.image_url} alt={detail.name} className='detail-img' />
 				<h1>{detail.name}</h1>
 				<h4>{detail.tagline}</h4>
 				<div>
@@ -31,10 +31,10 @@ const SingleBeerDetail = () => {
 				</div>
 				<h5>{detail.description}</h5>
 				<Link to='/allbeers'>
-					<img src={backImg} alt='Go back' />
+					<img src={backImg} alt='Go back' className='go-back-img' />
 				</Link>
-				<Nav />
 			</section>
+			<Nav />
 		</>
 	);
 };

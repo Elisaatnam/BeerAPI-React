@@ -13,12 +13,22 @@
 .wrapper {
 	background-color: #d9bf77be;
 	min-height: 100vh;
-	padding: 0 7.5vw;
+	padding: 3vh 7.5vw;
 }
 
 h2 {
 	font-family: Murphy;
 	font-size: 8vw;
+}
+
+h3 {
+	font-family: Murphy;
+	font-size: 10vw;
+	margin-bottom: 1vh;
+}
+
+h4 {
+	margin-bottom: 2.5vh;
 }
 
 img {
@@ -43,6 +53,7 @@ a {
 	width: 100%;
 	background: url(/bierpalette.jpg) no-repeat center;
 	background-size: cover;
+	border-radius: 15px;
 }
 
 .random-beer {
@@ -58,4 +69,5 @@ a {
 	width: 100%;
 	background: url(/zapfhahn.jpg) no-repeat center;
 	background-size: cover;
+	border-radius: 15px;
 }
